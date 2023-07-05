@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-12T10:52:08 IST" name="Suite" finished-at="2023-05-12T10:52:40 IST" duration-ms="31777">
+    <groups>
+      <group name="Smoke">
+        <method signature="Home_Page_test.home_page()[pri:0, instance:com.webautomation.testcases.Home_Page_test@563f38c4]" name="home_page" class="com.webautomation.testcases.Home_Page_test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-05-12T10:52:08 IST" name="Test" finished-at="2023-05-12T10:52:40 IST" duration-ms="31777">
+      <class name="com.webautomation.testcases.Download_Page_Test">
+        <test-method signature="download_page()[pri:0, instance:com.webautomation.testcases.Download_Page_Test@1ca3b418]" started-at="2023-05-12T10:52:33 IST" name="download_page" finished-at="2023-05-12T10:52:40 IST" duration-ms="6934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download_page -->
+      </class> <!-- com.webautomation.testcases.Download_Page_Test -->
+      <class name="com.webautomation.testcases.Home_Page_test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.webautomation.testcases.Home_Page_test@563f38c4]" started-at="2023-05-12T10:51:28 IST" name="setup" finished-at="2023-05-12T10:52:08 IST" duration-ms="40104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="home_page()[pri:0, instance:com.webautomation.testcases.Home_Page_test@563f38c4]" started-at="2023-05-12T10:52:09 IST" name="home_page" finished-at="2023-05-12T10:52:33 IST" duration-ms="23740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_page -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.webautomation.testcases.Home_Page_test@563f38c4]" started-at="2023-05-12T10:52:44 IST" name="teardown" finished-at="2023-05-12T10:52:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.webautomation.testcases.Home_Page_test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
